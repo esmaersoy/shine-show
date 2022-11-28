@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 14px;
+    padding-top: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.baslik {
+    padding-left: 13%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.menu-item:hover{
+    color: lightgrey;
+}
+
+.search-input {
+    padding:10px;
+    font-size: 14px;
+    border: 0;
+    border-bottom: 1px solid #333;    
+}
+.search-input:focus {
+    border-bottom: 1px solid #333; 
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    text-transform: uppercase;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.title {
+    color: #b40425;
+    letter-spacing: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.card-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0px 10px 5px rgb(128 128 128 / 0.2) ;
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: all .4s;
+} 
+
+.button-1{
+    background-color: #ff9a94;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    top: 50%; 
+}
+
+.button:hover{
+    color: #000000;
+}
+.button {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff; 
+    height: 40px; 
+}
+.price-1 {
+    color: red;
+    text-decoration: line-through;
+} 
+
+.card-image {
+    width: 250px;
+    height:300px;
+    padding: 13px; 
+    margin-bottom: 5px;
+    border: 1px solid rgb(128 128 128 / 0.2);
+}
+.card-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.button-1{
+    background-color: #ff9a94;
+}
+
+.button-2{
+    background-color: #591a22;
+}
+.button-3{
+    background-color: #ecc855;
+}
+.button-4{
+    background-color: #161e3c;
+}
+.button-5{
+    background-color:#2f1507;
+}
+
+.button-6{
+    background-color:#004bac;
+}
+.button-7{
+    background-color: #003c3d;
+}
+.button-8{
+    background-color:#cfa0b7;
+}
+.button-9{
+    background-color:#6c677c;
+}
+
+.button-10{
+    background-color:#B73E3E; 
+}
+
+.button-11{
+    background-color: #3C4048;
+}
+
+.button-12{
+    background-color:#000000;
+}
+
+.button-13{
+    background-color:#393E46;
+}
+
+.button-14{
+    background-color:#CF0A0A;
+}
+
+.button-15{
+    background-color:#F96666;
+}
+
+.button-16{
+    background-color:#F32424;
+}
+.button-17{
+    background-color:#9F8772;
+}
+.button-18{
+    background-color:#D7C0AE;
+}
+.button-19{
+    background-color:#B2B2B2;
+}
+.button-20{
+    background-color:#A64B2A;
+}
